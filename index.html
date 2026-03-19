@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airlines Restaurant</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            border-radius: 15px;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(24, 4, 4, 0.94);
+        }
+
+        .description {
+            text-align: center;
+            padding: 10px 40px;
+            font-size: 18px;
+            color: #ea2b0a;
+        }
+
+        .menu-section {
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+        }
+
+        .menu-box {
+            display: flex;
+            width: 70%;
+            background: rgb(235, 245, 168);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .menu-items {
+            width: 50%;
+            background-color: #2a5298;
+            color: white;
+            padding: 20px;
+        }
+
+        .menu-items h2 {
+            text-align: center;
+        }
+
+        .menu-items ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu-items li {
+            padding: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .prices {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .prices h2 {
+            text-align: center;
+            color: #2a5298;
+        }
+
+        .prices ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .prices li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #1e3c72;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>AIRLINES RESTAURANT</h1>
+    </header>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5">
+        <img src="https://i.pinimg.com/736x/a5/4f/df/a54fdf828111039da63f14ed3257c239.jpg">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4">
+    </div>
+
+    <div class="description">
+        <p>
+            Welcome to Airlines Restaurant, where taste meets elegance. 
+            Enjoy delicious meals with a premium dining experience. 
+            We serve fresh, hygienic, and mouth-watering food with love.
+        </p>
+    </div>
+
+    <div class="menu-section">
+        <div class="menu-box">
+            
+            <div class="menu-items">
+                <h2>Menu</h2>
+                <ul>
+                    <li>Paneer Butter Masala</li>
+                    <li>Veg Biryani</li>
+                    <li>Chicken Curry</li>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Pasta</li>
+                    <li>Cold Drink</li>
+                    <li>Ice Cream</li>
+                </ul>
+            </div>
+
+            <div class="prices">
+                <h2>Prices</h2>
+                <ul>
+                    <li>₹250</li>
+                    <li>₹200</li>
+                    <li>₹300</li>
+                    <li>₹180</li>
+                    <li>₹120</li>
+                    <li>₹150</li>
+                    <li>₹50</li>
+                    <li>₹90</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Airlines Restaurant | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
